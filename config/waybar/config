@@ -5,9 +5,9 @@
     // "width": 1280, // Waybar width
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
-    "modules-left": ["hyprland/workspaces", "hyprland/window", "hyprland/mode", "hyprland/scratchpad"],
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": ["custom/media"],
-    "modules-right": ["tray", "network", "mpd", "pulseaudio", "backlight", "keyboard-state", "battery", "battery#bat2", "clock"],
+    "modules-right": ["tray", "network", "keyboard-state", "pulseaudio", "clock"],
     // Modules configuration
     // "sway/workspaces": {
     //     "disable-scroll": true,
@@ -26,7 +26,6 @@
     //     }
     // },
     "keyboard-state": {
-        "numlock": true,
         "capslock": true,
         "format": "{name} {icon}",
         "format-icons": {
