@@ -1,4 +1,4 @@
-# kitty-hyprland-dots
+# hyprkitty-dots
  clean & smooth hyprland+catppuccin rice
  
  <img src="/assets/hyprkitty.png">
