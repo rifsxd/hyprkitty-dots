@@ -4,14 +4,14 @@
  <img src="/assets/hyprkitty.png">
  
 # Color Scheme :
-Catppuccin -
+Catppuccin
     
 ```
 https://github.com/catppuccin/catppuccin
 ```
  
 # Fetch Utility :
-Kittyfetch -
+Kittyfetch
     
 ```
 https://github.com/rifsxd/kittyfetch
