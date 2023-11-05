@@ -6,13 +6,13 @@
 # Color Scheme :
     - Catppuccin :
     
-    ```
-    https://github.com/catppuccin/catppuccin
-    ```
+```
+https://github.com/catppuccin/catppuccin
+```
  
 # Fetch Utility :
     - Kittyfetch :
     
-    ```
-    https://github.com/rifsxd/kittyfetch
-    ```
+```
+https://github.com/rifsxd/kittyfetch
+```
