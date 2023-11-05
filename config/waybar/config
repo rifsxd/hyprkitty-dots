@@ -27,10 +27,10 @@
     // },
     "keyboard-state": {
         "capslock": true,
-        "format": "{name} {icon}",
+        "format": "{icon}",
         "format-icons": {
-            "locked": "",
-            "unlocked": ""
+            "locked": "  ",
+            "unlocked": "  "
         }
     },
     "sway/mode": {
@@ -135,7 +135,7 @@
         "tooltip-format": "{ifname} via {gwaddr}  ",
         "format-linked": "{ifname} (No IP)  ",
         "format-disconnected": "  ",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "on-click": "$HOME/.config/waybar/custom_modules/networktoggle.sh",
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
