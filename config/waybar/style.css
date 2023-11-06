@@ -1,3 +1,14 @@
+/* ########################################################################################
+
+    __  __                     __ __  _  __   __            ___      ____ 
+   / / / /__  __ ____   _____ / //_/ (_)/ /_ / /_ __  __   |__ \    / __ \
+  / /_/ // / / // __ \ / ___// ,<   / // __// __// / / /   __/ /   / / / /
+ / __  // /_/ // /_/ // /   / /| | / // /_ / /_ / /_/ /   / __/ _ / /_/ / 
+/_/ /_/ \__, // .___//_/   /_/ |_|/_/ \__/ \__/ \__, /   /____/(_)\____/  
+       /____//_/                               /____/                     
+
+######################################################################################## */
+
 @import "mocha.css";
 
 * {
@@ -14,6 +25,7 @@ window#waybar {
 
 #workspaces {
   background-color: #1E1E2E;
+  color: #AEAFDC;
   margin-top: 1rem;
   border-radius: 8px;
   margin: 6px 6px 6px 6px;
@@ -43,29 +55,6 @@ window#waybar {
   box-shadow: 2 2 1 1px @mauve;
 }
 
-#tray,
-#network,
-#backlight,
-#cpu,
-#memory,
-#clock,
-#idle_inhibitor,
-#battery,
-#disk,
-#language,
-#temperature,
-#pulseaudio,
-#custom-media,
-#custom-lock,
-#custom-power {
-  background-color: #AEAFDC;
-  color: #1E1E2E;
-  border-radius: 8px;
-  margin: 6px 6px 6px 6px;
-  box-shadow: 4 4 1 1px @crust;
-  padding: 10px 10px;
-}
-
 #custom-media {
   background-color: @mauve;
   color: #1E1E2E;
@@ -85,15 +74,21 @@ window#waybar {
 }
 
 #clock {
+  background-color: #AEAFDC;
   color: #1E1E2E;
+  border-radius: 8px;
+  margin: 6px 6px 6px 6px;
+  box-shadow: 4 4 1 1px @crust;
+  padding: 10px 10px;
 }
 
-#battery {
-  color: @green;
-}
-
-#battery.charging {
-  color: @green;
+#network {
+  background-color: #AEAFDC;
+  color: #1E1E2E;
+  border-radius: 8px;
+  margin: 6px 6px 6px 6px;
+  box-shadow: 4 4 1 1px @crust;
+  padding: 10px 10px;
 }
 
 #keyboard-state {
@@ -105,41 +100,45 @@ window#waybar {
   padding: 10px 10px;
 }
 
-#battery.warning:not(.charging) {
-  color: @red;
-}
-
-#network {
-  color: #1E1E2E;
-}
-
-#backlight {
-  color: @yellow;
-}
-
 #pulseaudio {
+  background-color: #AEAFDC;
   color: #1E1E2E;
+  border-radius: 8px;
+  margin: 6px 6px 6px 6px;
+  box-shadow: 4 4 1 1px @crust;
+  padding: 10px 10px;
 }
 
 #pulseaudio.muted {
-    color: #1E1E2E;
+  background-color: #AEAFDC;
+  color: #1E1E2E;
+  border-radius: 8px;
+  margin: 6px 6px 6px 6px;
+  box-shadow: 4 4 1 1px @crust;
+  padding: 10px 10px;
 }
 
-#custom-power {
-    border-radius: 1rem;
-    color: @red;
-    margin-bottom: 1rem;
-}
 
 #tray {
+  background-color: #AEAFDC;
+  color: #1E1E2E;
   border-radius: 8px;
+  margin: 6px 6px 6px 6px;
+  box-shadow: 4 4 1 1px @crust;
+  padding: 10px 10px;
 }
 
 tooltip {
-    background: #AEAFDC;
-    border: 1px solid @pink;
+  background-color: #AEAFDC;
+  color: #1E1E2E;
+  border-radius: 8px;
+  margin: 6px 6px 6px 6px;
+  box-shadow: 4 4 1 1px @crust;
+  padding: 10px 10px;
 }
 
 tooltip label {
-    color: #1E1E2E;
+  background-color: #AEAFDC;
+  color: #1E1E2E;
+  border-radius: 8px;
 }
