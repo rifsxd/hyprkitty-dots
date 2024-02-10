@@ -14,7 +14,7 @@
 ## Autostart Programs
 
 # Kill already running process
-_ps=(waybar hyprpaper)
+_ps=(waybar hyprpaper polkit-gnome-authentication-agent-1)
 for _prs in "${_ps[@]}"; do
 	if [[ `pidof ${_prs}` ]]; then
 		killall -9 ${_prs}
@@ -26,3 +26,6 @@ waybar &
 
 # Hyprpaper
 hyprpaper &
+
+# Gnome Polkit
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
